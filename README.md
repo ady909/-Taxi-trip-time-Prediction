@@ -66,6 +66,11 @@ Models Used For modeling we tried various regression models such as
 All these models were fine tuned using a random search method with repeated cross-validation (CV) to ﬁnd the best hyperparameters. We also found out Feature importance so that we get to know about the features which are highly important.
 ## Result
 We got the best model accuracy in Xgboost model,r2 score of 0.83 in test data..The RMSE score of Xgboost model is 0.28
+## Output
+
+![taxi](https://github.com/ady909/-Taxi-trip-time-Prediction/assets/57126736/085a8fc0-0a3b-4eab-89ab-7efe121ed844)
+
+
 ## Conclusion
 
 During our analysis, Firstly did data preprocessing by creating few columns . I cleaned the data and removed outliers. Then conducted an exploratory data analysis (EDA) on all the features in our dataset. I have done Monovariate and Bivariate analysis on these variables . I also studied the numerical variables, calculated their correlations, and the their relationships with the dependent variable. I also handled multicollinearity issue using VIF. I also done OneHotencoding by adding dummy columns .
@@ -91,7 +96,3 @@ I employed 3 machine learning algorithms including Linear Regression, Random For
 8)Taxi trips are lowest on Mondays and comparatively low at sSundays as well.
 
 9)On Sundays people prefer to stay at home other than going outside in the traffic.
-## Output
-
-![taxi](https://github.com/ady909/-Taxi-trip-time-Prediction/assets/57126736/085a8fc0-0a3b-4eab-89ab-7efe121ed844)
-
